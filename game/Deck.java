@@ -15,7 +15,6 @@ public class Deck {
         deck.add(new Card(suit, rank));
       }
     }
-
   }
 
   public void addCard(Card card) {
@@ -26,5 +25,12 @@ public class Deck {
     return deck.size();
   }
 
+  public void shuffle() {
+      Collections.shuffle(this.deck); 
+  }
+
+  public void dealCard() {
+    Card card = deck.remove(0);
+  }
 
 }
