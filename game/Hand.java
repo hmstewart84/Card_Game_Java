@@ -19,4 +19,15 @@ public class Hand {
   public int cardCount() {
     return hand.size();
   }
+
+  public int getHandsValue(){
+      int counter = 0;
+      for (Card card : hand){
+        counter += card.getRank();
+      }
+      return counter;
+    } 
+
+
+
 }

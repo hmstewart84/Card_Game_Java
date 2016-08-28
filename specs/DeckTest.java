@@ -28,7 +28,7 @@ public class DeckTest {
   }
 
   @Test
-  public void canRemoveCard() {
+  public void canDealCard() {
     deck.createFullDeck();
     deck.dealCard();
     int result = deck.cardCount();
