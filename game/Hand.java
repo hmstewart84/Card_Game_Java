@@ -23,7 +23,7 @@ public class Hand {
   public int getHandsValue(){
       int counter = 0;
       for (Card card : hand){
-        counter += card.getRank();
+        counter += card.getRank().getValue();
       }
       return counter;
     } 

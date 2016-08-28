@@ -16,14 +16,15 @@ public enum RankType {
   QUEEN(12),
   KING(13);
 
-  private int numVal;
 
-      RankType(int numVal) {
-          this.numVal = numVal;
-      }
+    int value;
 
-      public int getNumVal() {
-          return numVal;
-      }
+    RankType(int value){
+     this.value = value;
+   }
+
+   public int getValue() {
+     return this.value;
+   }
 
 }

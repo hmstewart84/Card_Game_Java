@@ -30,6 +30,6 @@ public class HandTest {
       hand.takeCard(card2);
       int value = hand.getHandsValue();
       assertEquals(11, value);
-
-  }
+  
+    }
 }

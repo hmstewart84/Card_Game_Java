@@ -24,9 +24,9 @@ public class PlayerTest {
 
   @Test
     public void canGetAHand(){
-      player.getHand().takeCard(card);
-      player.getHand().takeCard(card1);
-      assertEquals(9, player.getHand().getHandsValue());
+      player.takeCard(card);
+      player.takeCard(card1);
+      assertEquals(9, player.getHand() );
     }
 
 }
