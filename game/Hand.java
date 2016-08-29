@@ -20,13 +20,13 @@ public class Hand {
     return hand.size();
   }
 
-  public int getHandsValue(){
-      int counter = 0;
-      for (Card card : hand){
-        counter += card.getRank().getValue();
-      }
-      return counter;
-    } 
+  // public int getHandsValue(){
+  //     int counter = 0;
+  //     for (Card card : hand){
+  //       counter += card.getRank().getValue();
+  //     }
+  //     return counter;
+  //   } 
 
 
 

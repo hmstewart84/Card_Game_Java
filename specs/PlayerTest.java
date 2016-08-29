@@ -22,11 +22,11 @@ public class PlayerTest {
     assertEquals( "Hannah", player.getName() ); 
   }
 
-  @Test
-    public void canGetAHand(){
-      player.takeCard(card);
-      player.takeCard(card1);
-      assertEquals(9, player.getHand() );
-    }
+  // @Test
+  //   public void canGetAHand(){
+  //     player.takeCard(card);
+  //     player.takeCard(card1);
+  //     assertEquals(9, player.getHand() );
+  //   }
 
 }

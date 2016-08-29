@@ -24,12 +24,12 @@ public class HandTest {
     assertEquals(result, 1);
   }
   
-  @Test
-    public void canGetAHandsValue(){
-      hand.takeCard(card);
-      hand.takeCard(card2);
-      int value = hand.getHandsValue();
-      assertEquals(11, value);
+  // @Test
+  //   public void canGetAHandsValue(){
+  //     hand.takeCard(card);
+  //     hand.takeCard(card2);
+  //     int value = hand.getHandsValue();
+  //     assertEquals(11, value);
   
-    }
+  //   }
 }
